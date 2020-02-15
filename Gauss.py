@@ -1,5 +1,7 @@
-import numpy as np
+#Gauss elimination algorithm for solving linear equastions
+#which is much faster and more accurate than Cramers rule algorithm
 
+import numpy as np
 
 def gauss_elimination(A,B):
     n = len(B)
