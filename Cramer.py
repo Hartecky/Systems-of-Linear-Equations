@@ -1,3 +1,5 @@
+#Cramers rule for solving linear equations
+
 def cramer(m,w):
     x = np.zeros((len(m),1))
     determinant = np.linalg.det(m)
